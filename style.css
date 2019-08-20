@@ -1,0 +1,180 @@
+body {
+    background-color: rgb(51, 49, 49);
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: 0 !important;
+}
+
+.wrapper {
+    width: 100%;
+
+}
+
+.header {
+    width: 100%;
+    padding: 40px 0;
+
+}
+
+.logo {
+    width: 650px;
+    font-size: 58px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 30px;
+    background-image: url(img/backgroundlogo.png);
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.nav {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #c34f4f;
+    text-align: center;
+    border-top: 2px solid #751b1b;
+    border-bottom: 2px solid #751b1b;
+    position: sticky;
+    top: 0px;
+
+}
+
+.content {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    padding-top: 10px;
+    background-image: url(img/background2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #c34f4f;
+    
+}
+
+.socials {
+    width: 100%;
+    text-align: center;
+    background-color: rgba(51,49,49);
+}
+
+.socialdivs {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fb {
+    width: 250px;
+    height: 100px;
+    float: left;
+}
+.fb:hover {
+    background-color: #4668b3;
+    
+}
+
+.yt {
+    width: 250px;
+    height: 100px;
+    float: left;
+}
+.yt:hover {
+    background-color: #d94348;
+    
+}
+
+.tw {
+    width: 250px;
+    height: 100px;
+    float: left;
+}
+.tw:hover {
+    background-color: #3095d3;
+    
+}
+
+.inst {
+    width: 250px;
+    height: 100px;
+    float: left;
+}
+.inst:hover {
+    background-color: #c13584;
+    
+}
+
+a.tilelink
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    background-color: #c34f4f;
+    color: #ffffff;
+    border-top: 2px solid #751b1b;
+    border-bottom: 2px solid #751b1b;
+    padding: 3px;
+}
+
+ol {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 18px;
+    height: 35px;
+    line-height: 200%;
+    display: inline-block;
+}
+ol a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+ol > li {
+    float: left;
+    width: 150px;
+    height: 40px;
+    border-right: 1.2px dashed #751b1b;
+}
+ol > li:first-child {
+    border-left: 1.2px dashed #751b1b;
+}
+ol > li:hover {
+    background-color: #FFBB44;
+
+}
+ol > li:hover > a {
+    color: #c34f4f;
+}
+ol > li > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    display: none;
+}
+ol > li:hover > ul {
+    display: block;
+}
+ol > li > ul > li {
+    background-color: rgba(195, 79, 79, 0.924);
+    position: relative;
+    z-index: 100;
+    border-top: 1.2px dashed #751b1b;
+}
+ol > li > ul > li:hover {
+    background-color: #00AFEA;
+    transform: scale(1.2);
+}
+ol > li > ul > li:hover > a {
+    color: #c34f4f;
+}
