@@ -8,13 +8,11 @@ body {
 
 .wrapper {
     width: 100%;
-
 }
 
 .header {
     width: 100%;
     padding: 40px 0;
-
 }
 
 .logo {
@@ -28,7 +26,6 @@ body {
     background-size: 170px;
     background-repeat: no-repeat;
     background-position: right;
-
 }
 
 .nav {
@@ -40,7 +37,6 @@ body {
     border-bottom: 2px solid #751b1b;
     position: sticky;
     top: 0px;
-
 }
 
 .content {
@@ -54,7 +50,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     color: #c34f4f;
-    
 }
 
 .socials {
@@ -76,7 +71,6 @@ body {
 }
 .fb:hover {
     background-color: #4668b3;
-    
 }
 
 .yt {
@@ -86,7 +80,6 @@ body {
 }
 .yt:hover {
     background-color: #d94348;
-    
 }
 
 .tw {
@@ -96,7 +89,6 @@ body {
 }
 .tw:hover {
     background-color: #3095d3;
-    
 }
 
 .inst {
@@ -106,7 +98,6 @@ body {
 }
 .inst:hover {
     background-color: #c13584;
-    
 }
 
 a.tilelink
@@ -122,6 +113,20 @@ footer {
     border-top: 2px solid #751b1b;
     border-bottom: 2px solid #751b1b;
     padding: 3px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #FFBB44;
+}
+
+p > a:hover > i.icon-mail {
+    background-color: #FFBB44;
+    transform: scale(1.2);
 }
 
 ol {
@@ -176,5 +181,30 @@ ol > li > ul > li:hover {
     transform: scale(1.2);
 }
 ol > li > ul > li:hover > a {
+    color: #c34f4f;
+}
+
+.contentclassicnes {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    padding-top: 10px;
+    background-image: url(img/backnes.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #c34f4f;
+}
+.contentmovie {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    padding-top: 10px;
+    background-image: url(img/);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     color: #c34f4f;
 }
